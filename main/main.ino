@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #define MQ3pin A3
 
 float sensorValue;  //variable to store sensor value
@@ -15,4 +16,15 @@ void loop() {
   Serial.println(sensorValue);
   
   delay(200); // wait 2s for next reading
+=======
+int a;
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  
+>>>>>>> cc6d2bf78332edaa9f73a03270465b26bd6c3f38
 }
